@@ -1,0 +1,1323 @@
+@prefix bldg: <http://example.com/COEtest#> .
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+
+bldg:AHU6 brick:feeds bldg:CoE_AC_6_vav1,
+        bldg:CoE_AC_6_vav10,
+        bldg:CoE_AC_6_vav11,
+        bldg:CoE_AC_6_vav12,
+        bldg:CoE_AC_6_vav13,
+        bldg:CoE_AC_6_vav2,
+        bldg:CoE_AC_6_vav3,
+        bldg:CoE_AC_6_vav4,
+        bldg:CoE_AC_6_vav5,
+        bldg:CoE_AC_6_vav6,
+        bldg:CoE_AC_6_vav7,
+        bldg:CoE_AC_6_vav8,
+        bldg:CoE_AC_6_vav9 ;
+    brick:hasPart bldg:CoE_AC_6_EAFan .
+
+bldg:COE-IAQ-303\(Others\) a brick:Air_Quality_Sensor ;
+    brick:hasLocation bldg:Room_303 ;
+    brick:hasPoint bldg:Air_Quality,
+        bldg:Barometric_pressure,
+        bldg:Battery,
+        bldg:Beep,
+        bldg:CO2HCHO,
+        bldg:Humidity,
+        bldg:Light_Level,
+        bldg:Motion,
+        bldg:Ozone,
+        bldg:PM10,
+        bldg:PM2.5,
+        bldg:Signal,
+        bldg:TVOC,
+        bldg:Temperature ;
+    brick:hasTimeseriesReference bldg:02cb93a1-9e70-4222-9128-1a4094ab29a1 .
+
+bldg:COE-IAQ-403\(IAQ_Test_1\) a brick:Air_Quality_Sensor ;
+    brick:hasLocation bldg:Room_403 ;
+    brick:hasPoint bldg:Air_Quality,
+        bldg:Barometric_pressure,
+        bldg:Battery,
+        bldg:Beep,
+        bldg:CO2HCHO,
+        bldg:Humidity,
+        bldg:Light_Level,
+        bldg:Motion,
+        bldg:Ozone,
+        bldg:PM10,
+        bldg:PM2.5,
+        bldg:Signal,
+        bldg:TVOC,
+        bldg:Temperature ;
+    brick:hasTimeseriesReference bldg:8d15fd43-27cd-4897-9499-2bfc382f30d2 .
+
+bldg:COE-IAQ-OUT a brick:Air_Quality_Sensor ;
+    brick:hasLocation bldg:outside ;
+    brick:hasPoint bldg:Air_Quality,
+        bldg:Barometric_pressure,
+        bldg:Battery,
+        bldg:Beep,
+        bldg:CO2HCHO,
+        bldg:Humidity,
+        bldg:Light_Level,
+        bldg:Motion,
+        bldg:Ozone,
+        bldg:PM10,
+        bldg:PM2.5,
+        bldg:Signal,
+        bldg:TVOC,
+        bldg:Temperature ;
+    brick:hasTimeseriesReference bldg:a2204137-2966-4729-a52b-bc363d3c81db .
+
+bldg:CoE-IAQ-199 a brick:Air_Quality_Sensor ;
+    brick:hasLocation bldg:Room_199 ;
+    brick:hasPoint bldg:Air_Quality,
+        bldg:Barometric_pressure,
+        bldg:Battery,
+        bldg:Beep,
+        bldg:CO2HCHO,
+        bldg:Humidity,
+        bldg:Light_Level,
+        bldg:Motion,
+        bldg:Ozone,
+        bldg:PM10,
+        bldg:PM2.5,
+        bldg:Signal,
+        bldg:TVOC,
+        bldg:Temperature ;
+    brick:hasTimeseriesReference bldg:adcc549e-028e-4441-8075-0a09a6d2100f .
+
+bldg:CoE-IAQ-203 a brick:Air_Quality_Sensor ;
+    brick:hasLocation bldg:Room_203 ;
+    brick:hasPoint bldg:Air_Quality,
+        bldg:Barometric_pressure,
+        bldg:Battery,
+        bldg:Beep,
+        bldg:CO2HCHO,
+        bldg:Humidity,
+        bldg:Light_Level,
+        bldg:Motion,
+        bldg:Ozone,
+        bldg:PM10,
+        bldg:PM2.5,
+        bldg:Signal,
+        bldg:TVOC,
+        bldg:Temperature ;
+    brick:hasTimeseriesReference bldg:739f79cc-f66e-4baf-9bc0-46383beecf88 .
+
+bldg:CoE-IAQ-304 a brick:Air_Quality_Sensor ;
+    brick:hasLocation bldg:Room_304 ;
+    brick:hasPoint bldg:Air_Quality,
+        bldg:Barometric_pressure,
+        bldg:Battery,
+        bldg:Beep,
+        bldg:CO2HCHO,
+        bldg:Humidity,
+        bldg:Light_Level,
+        bldg:Motion,
+        bldg:Ozone,
+        bldg:PM10,
+        bldg:PM2.5,
+        bldg:Signal,
+        bldg:TVOC,
+        bldg:Temperature ;
+    brick:hasTimeseriesReference bldg:abdac505-d8eb-4792-b7d5-08b9b631a410 .
+
+bldg:CoE-IAQ-499 a brick:Air_Quality_Sensor ;
+    brick:hasLocation bldg:Room_499 ;
+    brick:hasPoint bldg:Air_Quality,
+        bldg:Barometric_pressure,
+        bldg:Battery,
+        bldg:Beep,
+        bldg:CO2HCHO,
+        bldg:Humidity,
+        bldg:Light_Level,
+        bldg:Motion,
+        bldg:Ozone,
+        bldg:PM10,
+        bldg:PM2.5,
+        bldg:Signal,
+        bldg:TVOC,
+        bldg:Temperature ;
+    brick:hasTimeseriesReference bldg:5710ced6-b9f7-49c9-a6f6-9ed99059fd8b .
+
+bldg:CoE-IAQ-599 a brick:Air_Quality_Sensor ;
+    brick:hasLocation bldg:Room_599 ;
+    brick:hasPoint bldg:Air_Quality,
+        bldg:Barometric_pressure,
+        bldg:Battery,
+        bldg:Beep,
+        bldg:CO2HCHO,
+        bldg:Humidity,
+        bldg:Light_Level,
+        bldg:Motion,
+        bldg:Ozone,
+        bldg:PM10,
+        bldg:PM2.5,
+        bldg:Signal,
+        bldg:TVOC,
+        bldg:Temperature ;
+    brick:hasTimeseriesReference bldg:765c5394-7f5c-40a6-b1b4-9d2666c8be47 .
+
+bldg:CoE_AC_6_Cool_Battery_CHWP2_Informations a brick:Cool_Battery_Informations .
+
+bldg:CoE_AC_6_EADamper_Informations a brick:Exhaust_Air_Static_Information ;
+    brick:hasPart bldg:CoE_AC_6_EADamper .
+
+bldg:CoE_AC_6_EAFan_Informations a brick:Exhaust_Air_Fan_Information ;
+    brick:hasPart bldg:CoE_AC_6_EAFan .
+
+bldg:CoE_AC_6_HWP1_Informations a brick:HWP1_Informations .
+
+bldg:CoE_AC_6_HeatWheel_Defrost_Informations a brick:Heat_Wheel_Defrost_Information ;
+    brick:hasPart bldg:CoE_AC_6_HeatWheel .
+
+bldg:CoE_AC_6_HeatWheel_Informations a brick:Heat_Wheel_Information ;
+    brick:hasPart bldg:CoE_AC_6_HeatWheel .
+
+bldg:CoE_AC_6_HeatWheel_Unitmode_Informations a brick:Heat_Wheel_Unitmode_Information ;
+    brick:hasPart bldg:CoE_AC_6_HeatWheel .
+
+bldg:CoE_AC_6_HtgOAEnable_Setpoint_Sensor a brick:Schedule_Temperature_Setpoint .
+
+bldg:CoE_AC_6_Mixing_Unit a brick:Mixing_Unit ;
+    brick:hasLocation bldg:CoE_AC_6 ;
+    brick:hasPart bldg:CoE_AC_6_Mixing_Unit_Temperature_Sensor .
+
+bldg:CoE_AC_6_Return_Air_Filter a brick:Discharge_Air_Differential_Pressure_Setpoint ;
+    brick:hasLocation bldg:CoE_AC_6 ;
+    brick:hasPoint bldg:CoE_AC_6_Return_Air_Filter_CO2,
+        bldg:CoE_AC_6_Return_Air_Filter_Differential_Pressure_Sensor,
+        bldg:CoE_AC_6_Return_Air_Filter_Humidity_Sensor,
+        bldg:CoE_AC_6_Return_Air_Filter_Temperature_Sensor .
+
+bldg:HX4 a brick:Heat_Exchanger .
+
+bldg:Room_404 a brick:Room .
+
+bldg:Room_406 brick:hasPart bldg:MPP-4-2 .
+
+bldg:30_A_RECEPT_\(MPP-4-2\) a brick:PlugStrip .
+
+bldg:3rd_Kitchen_\(RP-3\) a brick:PlugStrip ;
+    brick:hasLocation bldg:floor_3 .
+
+bldg:3rd_Lobby a brick:Lobby .
+
+bldg:AIR_COMPRESSOR_\(MPP-LAB1-1\) a brick:HVAC_Equipment .
+
+bldg:Air_Compressor_\(MPP-LAB1-3\) a brick:HVAC_Equipment .
+
+bldg:BAS_ROOM_\(RP-3\) a brick:PlugStrip .
+
+bldg:BATHRM_GFI_\(RP-5\) a brick:PlugStrip .
+
+bldg:BOILER_PACKAGE_\(MPP-LAB1-1\) a brick:HVAC_Equipment .
+
+bldg:CHWP2 a brick:Chilled_Water_Pump ;
+    brick:hasPoint bldg:CoE_AC_6_CHWP2_RuntimeAlarm_Setpoint_Sensor,
+        bldg:CoE_AC_6_CHWP2_Runtime_Sensor .
+
+bldg:CoE_AC_6_CHWP2_RuntimeAlarm_Setpoint_Sensor a brick:Cycle_Sensor ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_CHWP2_Runtime_Sensor a brick:Run_Time_Sensor ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_ClgOAEnable_Setpoint_Sensor a brick:Schedule_Temperature_Setpoint .
+
+bldg:CoE_AC_6_Cool_Battery a brick:Chilled_Water_Coil ;
+    brick:hasPart bldg:CHWP2,
+        bldg:CoE_AC_6_Cool_Battery_Freezestat_Informations .
+
+bldg:CoE_AC_6_Cool_Battery_Freezestat_Informations a brick:Cool_Battery_Informations .
+
+bldg:CoE_AC_6_Current_Exhaust_Aiflow_Setpoint_Sensor a brick:Exhaust_Air_Flow_Setpoint .
+
+bldg:CoE_AC_6_EADamper_Air_Flow_Setpoint a brick:Exhaust_Air_Flow_Setpoint ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_EAFan_RuntimeAlarm_Setpoint_Sensor a brick:Cycle_Alarm ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_EAFan_Runtime_Sensor a brick:Run_Time_Sensor ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_EAFan_Speedsignal_Sensor a brick:Speed_Sensor ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_EconoOAEnable_Setpoint_Sensor a brick:Schedule_Temperature_Setpoint .
+
+bldg:CoE_AC_6_Exhaust_Aiflow_Offset_Setpoint_Sensor a brick:Exhaust_Air_Flow_Setpoint .
+
+bldg:CoE_AC_6_Filter1 a brick:Intake_Air_Filter ;
+    brick:hasPoint bldg:CoE_AC_6_Filter1_Differential_Pressure_Sensor .
+
+bldg:CoE_AC_6_Filter1_Differential_Pressure_Sensor a brick:Discharge_Air_Differential_Pressure_Setpoint ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_Filter2 a brick:Intake_Air_Filter ;
+    brick:hasPoint bldg:CoE_AC_6_Filter2_Differential_Pressure_Sensor .
+
+bldg:CoE_AC_6_Filter2_Differential_Pressure_Sensor a brick:Discharge_Air_Differential_Pressure_Setpoint ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_HWP1_RuntimeAlarm_Setpoint_Sensor a brick:Cycle_Alarm ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_HWP1_Runtime_Sensor a brick:Run_Time_Sensor ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_HeatWheel_ClgOffset_Setpoint_Sensor a brick:Differential_Setpoint ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_HeatWheel_Defrost_EAT_Setpoint_Sensor a brick:Differential_Setpoint ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_HeatWheel_Defrost_OAT_Setpoint_Sensor a brick:Differential_Setpoint ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_HeatWheel_ExhaustAir_Temperature_Sensor a brick:Exhaust_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_HeatWheel_HtgOffset_Setpoint_Sensor a brick:Differential_Setpoint ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_HeatWheel_RuntimeAlarm_Setpoint_Sensor a brick:Cycle_Alarm ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_HeatWheel_Runtime_Sensor a brick:Run_Time_Sensor ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_HeatWheel_Signal_Sensor a brick:Heat_Wheel_VFD ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_HeatWheel_WheelSpeed_Setpoint_Sensor a brick:Speed_Setpoint ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_Heating_Battery a brick:Water_Heater ;
+    brick:feeds bldg:HWP1 ;
+    brick:hasPoint bldg:CoE_AC_6_Heating_Battery_ATemperature_Sensor,
+        bldg:CoE_AC_6_Heating_Battery_BTemperature_Sensor .
+
+bldg:CoE_AC_6_Heating_Battery_ATemperature_Sensor a brick:Air_Temperature_Sensor ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_Heating_Battery_BTemperature_Sensor a brick:Air_Temperature_Sensor ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_Humid a brick:Humidifier ;
+    brick:hasPart bldg:CoE_AC_6_Humid_Informations ;
+    brick:hasPoint bldg:CoE_AC_6_Humid_Humidity_Sensor,
+        bldg:CoE_AC_6_Humid_Speedsignal_Sensor,
+        bldg:CoE_AC_6_Humid_Temperature_Sensor .
+
+bldg:CoE_AC_6_Humid_Humidity_Sensor a brick:Air_Humidity_Sensor ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_Humid_Informations a brick:Humidifier_Informations .
+
+bldg:CoE_AC_6_Humid_Speedsignal_Sensor a brick:Speed_Sensor ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_Humid_Temperature_Sensor a brick:Air_Temperature_Sensor ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_MaTOffset_Setpoint_Sensor a brick:Air_Temperature_Setpoint .
+
+bldg:CoE_AC_6_MinimumEAF_Speed_Setpoint_Sensor a brick:Min_Exhaust_Air_Flow_Setpoint .
+
+bldg:CoE_AC_6_MinimumOA_Aiflow_Setpoint_Sensor a brick:Min_Outside_Air_Flow_Setpoint_Limit .
+
+bldg:CoE_AC_6_MinimumSAF_Speed_Setpoint_Sensor a brick:Min_Supply_Air_Flow_Setpoint .
+
+bldg:CoE_AC_6_MinimumSupply_Aiflow_Setpoint_Sensor a brick:Min_Heating_Supply_Air_Flow_Setpoint_Limit .
+
+bldg:CoE_AC_6_Mixing_Unit_Temperature_Sensor a brick:Mixing_Temperature_Sensor ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_OADamper a brick:Outside_Damper .
+
+bldg:CoE_AC_6_OAFilter a brick:Intake_Air_Filter ;
+    brick:hasPoint bldg:CoE_AC_6_OAFilter_Differential_Pressure_Sensor .
+
+bldg:CoE_AC_6_OAFilter_Differential_Pressure_Sensor a brick:Discharge_Air_Differential_Pressure_Setpoint ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_PreHeating_Battery a brick:Water_Heater ;
+    brick:feeds bldg:HWP1 ;
+    brick:hasPoint bldg:CoE_AC_6_PreHeating_Battery_Air_Flow_Setpoint,
+        bldg:CoE_AC_6_PreHeating_Battery_Humidity_Setpoint .
+
+bldg:CoE_AC_6_PreHeating_Battery_Air_Flow_Setpoint a brick:Outside_Air_Flow_Setpoint ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_PreHeating_Battery_Humidity_Setpoint a brick:Outside_Humidity_Setpoint ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_PreHeating_CurrentPHC_Setpoint_Sensor a brick:Current_Ratio_Setpoint .
+
+bldg:CoE_AC_6_PreHeating_DAT_Setpoint_Sensor a brick:Discharge_Air_Temperature_Heating_Setpoint .
+
+bldg:CoE_AC_6_PreHeating_WheelOff_Setpoint_Sensor a brick:WheelOff_Setpoint_Sensor .
+
+bldg:CoE_AC_6_Return_Air_Filter_CO2 a brick:CO2_Setpoint ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_Return_Air_Filter_Differential_Pressure_Sensor a brick:Discharge_Air_Differential_Pressure_Setpoint ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_Return_Air_Filter_Humidity_Sensor a brick:Return_Air_Humidity_Sensor ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_Return_Air_Filter_Temperature_Sensor a brick:Return_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_SAFan a brick:Supply_Fan ;
+    brick:hasPart bldg:CoE_AC_6_SAFan_Informations ;
+    brick:hasPoint bldg:CoE_AC_6_SAFan_RuntimeAlarm_Setpoint_Sensor,
+        bldg:CoE_AC_6_SAFan_Runtime_Sensor .
+
+bldg:CoE_AC_6_SAFan_Informations a brick:SAFan_Informations .
+
+bldg:CoE_AC_6_SAFan_RuntimeAlarm_Setpoint_Sensor a brick:Cycle_Alarm ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_SAFan_Runtime_Sensor a brick:Run_Time_Sensor ;
+    brick:hasLocation bldg:CoE_AC_6 .
+
+bldg:CoE_AC_6_SAHumid_Highlimit_Setpoint_Sensor a brick:Supply_Air_Humidity_Setpoint .
+
+bldg:CoE_AC_6_SpaceDeshumidity_Setpoint_Sensor a brick:Discharge_Air_Humidity_Setpoint .
+
+bldg:CoE_AC_6_SpaceHumidity_Setpoint_Sensor a brick:Building_Air_Humidity_Setpoint .
+
+bldg:CoE_AC_6_Startup_Setpoint_Sensor a brick:Air_Temperature_Setpoint .
+
+bldg:CoE_AC_6_Supply_StaticPressure_Setpoint_Sensor a brick:Supply_Air_Static_Pressure_Setpoint .
+
+bldg:CoE_AC_6_vav1 a brick:Variable_Air_Volume_Box ;
+    brick:feeds bldg:CoE_AC_6_vav1_Damper,
+        bldg:CoE_AC_6_vavZone1 ;
+    brick:hasPoint bldg:CoE_AC_6_vav_Actualflow_Sensor1,
+        bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor1,
+        bldg:CoE_AC_6_vav_DuctlnTemp_Sensor1,
+        bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor1,
+        bldg:CoE_AC_6_vav_OT_Sensor1,
+        bldg:CoE_AC_6_vav_Space_Temp_Sensor1 ;
+    brick:hasTimeseriesReference bldg:17f0d1a1-09fa-4630-b556-955265c263b2 .
+
+bldg:CoE_AC_6_vav10 a brick:Variable_Air_Volume_Box ;
+    brick:feeds bldg:CoE_AC_6_vav10_Damper,
+        bldg:CoE_AC_6_vavZone10 ;
+    brick:hasPoint bldg:CoE_AC_6_vav_Actualflow_Sensor10,
+        bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor10,
+        bldg:CoE_AC_6_vav_DuctlnTemp_Sensor10,
+        bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor10,
+        bldg:CoE_AC_6_vav_OT_Sensor10,
+        bldg:CoE_AC_6_vav_Space_Temp_Sensor10 ;
+    brick:hasTimeseriesReference bldg:6ea8295d-215b-4a9b-ae77-08d1fbc6d40f .
+
+bldg:CoE_AC_6_vav10_Damper a brick:Damper .
+
+bldg:CoE_AC_6_vav11 a brick:Variable_Air_Volume_Box ;
+    brick:feeds bldg:CoE_AC_6_vav11_Damper,
+        bldg:CoE_AC_6_vavZone11 ;
+    brick:hasPoint bldg:CoE_AC_6_vav_Actualflow_Sensor11,
+        bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor11,
+        bldg:CoE_AC_6_vav_DuctlnTemp_Sensor11,
+        bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor11,
+        bldg:CoE_AC_6_vav_OT_Sensor11,
+        bldg:CoE_AC_6_vav_Space_Temp_Sensor11 ;
+    brick:hasTimeseriesReference bldg:e35f14fc-1117-41e8-aa7c-194ffa5b9e68 .
+
+bldg:CoE_AC_6_vav11_Damper a brick:Damper .
+
+bldg:CoE_AC_6_vav12 a brick:Variable_Air_Volume_Box ;
+    brick:feeds bldg:CoE_AC_6_vav12_Damper,
+        bldg:CoE_AC_6_vavZone12 ;
+    brick:hasPoint bldg:CoE_AC_6_vav_Actualflow_Sensor12,
+        bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor12,
+        bldg:CoE_AC_6_vav_DuctlnTemp_Sensor12,
+        bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor12,
+        bldg:CoE_AC_6_vav_OT_Sensor12,
+        bldg:CoE_AC_6_vav_Space_Temp_Sensor12 ;
+    brick:hasTimeseriesReference bldg:8657ceb7-c13c-4f5e-ab35-76b372e2501a .
+
+bldg:CoE_AC_6_vav12_Damper a brick:Damper .
+
+bldg:CoE_AC_6_vav13 a brick:Variable_Air_Volume_Box ;
+    brick:feeds bldg:CoE_AC_6_vav13_Damper,
+        bldg:CoE_AC_6_vavZone13 ;
+    brick:hasPoint bldg:CoE_AC_6_vav_Actual_Cool_Setpoint_Sensor13,
+        bldg:CoE_AC_6_vav_Actual_Flow_Setpoint_Sensor13,
+        bldg:CoE_AC_6_vav_Actual_Heat_Setpoint_Sensor13,
+        bldg:CoE_AC_6_vav_Actualflow_Sensor13,
+        bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor13,
+        bldg:CoE_AC_6_vav_CO2_Load_Sensor13,
+        bldg:CoE_AC_6_vav_CO2_Sensor13,
+        bldg:CoE_AC_6_vav_CO2_Setpoint_Sensor13,
+        bldg:CoE_AC_6_vav_Coolmode_Temperature_Error_Sensor13,
+        bldg:CoE_AC_6_vav_DuctlnTemp_Sensor13,
+        bldg:CoE_AC_6_vav_Effective_Setpoint_Sensor13,
+        bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor13,
+        bldg:CoE_AC_6_vav_Heatmode_Temperature_Error_Sensor13,
+        bldg:CoE_AC_6_vav_Maximum_Flow_Cool_Setpoint_Sensor13,
+        bldg:CoE_AC_6_vav_Maximum_Flow_Heat_Setpoint_Sensor13,
+        bldg:CoE_AC_6_vav_Minimum_Flow_Heat_Setpoint_Sensor13,
+        bldg:CoE_AC_6_vav_Minimum_Flow_Setpoint_Sensor13,
+        bldg:CoE_AC_6_vav_Minimum_Flow_Standby_Setpoint_Sensor13,
+        bldg:CoE_AC_6_vav_Minimum_Flow_Unoccupied_Setpoint_Sensor13,
+        bldg:CoE_AC_6_vav_OT_Sensor13,
+        bldg:CoE_AC_6_vav_Occupied_Cool_Setpoint_Sensor13,
+        bldg:CoE_AC_6_vav_Occupied_Heat_Setpoint_Sensor13,
+        bldg:CoE_AC_6_vav_Offset_Setpoint_Sensor13,
+        bldg:CoE_AC_6_vav_Space_Temp_Sensor13,
+        bldg:CoE_AC_6_vav_StandbyCool_Setpoint_Sensor13,
+        bldg:CoE_AC_6_vav_StandbyHeat_Setpoint_Sensor13,
+        bldg:CoE_AC_6_vav_Temperature_Error_Sensor13,
+        bldg:CoE_AC_6_vav_Unoccupied_Cool_Setpoint_Sensor13,
+        bldg:CoE_AC_6_vav_Unoccupied_Heat_Setpoint_Sensor13 ;
+    brick:hasTimeseriesReference bldg:37d15ca9-c9d4-48d2-af91-1ab0ec043859 .
+
+bldg:CoE_AC_6_vav13_Damper a brick:Damper .
+
+bldg:CoE_AC_6_vav1_Damper a brick:Damper .
+
+bldg:CoE_AC_6_vav2 a brick:Variable_Air_Volume_Box ;
+    brick:feeds bldg:CoE_AC_6_vav2_Damper,
+        bldg:CoE_AC_6_vavZone2 ;
+    brick:hasPoint bldg:CoE_AC_6_vav_Actualflow_Sensor2,
+        bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor2,
+        bldg:CoE_AC_6_vav_DuctlnTemp_Sensor2,
+        bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor2,
+        bldg:CoE_AC_6_vav_OT_Sensor2,
+        bldg:CoE_AC_6_vav_Space_Temp_Sensor2 ;
+    brick:hasTimeseriesReference bldg:90eb72f1-7315-4009-9f97-eb99fe8d01f0 .
+
+bldg:CoE_AC_6_vav2_Damper a brick:Damper .
+
+bldg:CoE_AC_6_vav3 a brick:Variable_Air_Volume_Box ;
+    brick:feeds bldg:CoE_AC_6_vav3_Damper,
+        bldg:CoE_AC_6_vavZone3 ;
+    brick:hasPoint bldg:CoE_AC_6_vav_Actualflow_Sensor3,
+        bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor3,
+        bldg:CoE_AC_6_vav_DuctlnTemp_Sensor3,
+        bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor3,
+        bldg:CoE_AC_6_vav_OT_Sensor3,
+        bldg:CoE_AC_6_vav_Space_Temp_Sensor3 ;
+    brick:hasTimeseriesReference bldg:06ff11e5-f83b-4320-9633-9367f7f40371 .
+
+bldg:CoE_AC_6_vav3_Damper a brick:Damper .
+
+bldg:CoE_AC_6_vav4 a brick:Variable_Air_Volume_Box ;
+    brick:feeds bldg:CoE_AC_6_vav4_Damper,
+        bldg:CoE_AC_6_vavZone4 ;
+    brick:hasPoint bldg:CoE_AC_6_vav_Actualflow_Sensor4,
+        bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor4,
+        bldg:CoE_AC_6_vav_DuctlnTemp_Sensor4,
+        bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor4,
+        bldg:CoE_AC_6_vav_OT_Sensor4,
+        bldg:CoE_AC_6_vav_Space_Temp_Sensor4 ;
+    brick:hasTimeseriesReference bldg:d6d107fb-7426-4ed0-8491-6c777a87e523 .
+
+bldg:CoE_AC_6_vav4_Damper a brick:Damper .
+
+bldg:CoE_AC_6_vav5 a brick:Variable_Air_Volume_Box ;
+    brick:feeds bldg:CoE_AC_6_vav5_Damper,
+        bldg:CoE_AC_6_vavZone5 ;
+    brick:hasPoint bldg:CoE_AC_6_vav_Actualflow_Sensor5,
+        bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor5,
+        bldg:CoE_AC_6_vav_DuctlnTemp_Sensor5,
+        bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor5,
+        bldg:CoE_AC_6_vav_OT_Sensor5,
+        bldg:CoE_AC_6_vav_Space_Temp_Sensor5 ;
+    brick:hasTimeseriesReference bldg:396a2bce-c311-40e4-9165-db840e835794 .
+
+bldg:CoE_AC_6_vav5_Damper a brick:Damper .
+
+bldg:CoE_AC_6_vav6 a brick:Variable_Air_Volume_Box ;
+    brick:feeds bldg:CoE_AC_6_vav6_Damper,
+        bldg:CoE_AC_6_vavZone6 ;
+    brick:hasPoint bldg:CoE_AC_6_vav_Actualflow_Sensor6,
+        bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor6,
+        bldg:CoE_AC_6_vav_DuctlnTemp_Sensor6,
+        bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor6,
+        bldg:CoE_AC_6_vav_OT_Sensor6,
+        bldg:CoE_AC_6_vav_Space_Temp_Sensor6 ;
+    brick:hasTimeseriesReference bldg:d4ec982c-7be6-4299-853e-3005bc16c3a2 .
+
+bldg:CoE_AC_6_vav6_Damper a brick:Damper .
+
+bldg:CoE_AC_6_vav7 a brick:Variable_Air_Volume_Box ;
+    brick:feeds bldg:CoE_AC_6_vav7_Damper,
+        bldg:CoE_AC_6_vavZone7 ;
+    brick:hasPoint bldg:CoE_AC_6_vav_Actualflow_Sensor7,
+        bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor7,
+        bldg:CoE_AC_6_vav_DuctlnTemp_Sensor7,
+        bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor7,
+        bldg:CoE_AC_6_vav_OT_Sensor7,
+        bldg:CoE_AC_6_vav_Space_Temp_Sensor7 ;
+    brick:hasTimeseriesReference bldg:b64e2fae-e504-4866-9014-8add738beb10 .
+
+bldg:CoE_AC_6_vav7_Damper a brick:Damper .
+
+bldg:CoE_AC_6_vav8 a brick:Variable_Air_Volume_Box ;
+    brick:feeds bldg:CoE_AC_6_vav8_Damper,
+        bldg:CoE_AC_6_vavZone8 ;
+    brick:hasPoint bldg:CoE_AC_6_vav_Actualflow_Sensor8,
+        bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor8,
+        bldg:CoE_AC_6_vav_DuctlnTemp_Sensor8,
+        bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor8,
+        bldg:CoE_AC_6_vav_OT_Sensor8,
+        bldg:CoE_AC_6_vav_Space_Temp_Sensor8 ;
+    brick:hasTimeseriesReference bldg:bf4e6d20-5e3b-4f7c-8ec2-89855d6f424d .
+
+bldg:CoE_AC_6_vav8_Damper a brick:Damper .
+
+bldg:CoE_AC_6_vav9 a brick:Variable_Air_Volume_Box ;
+    brick:feeds bldg:CoE_AC_6_vav9_Damper,
+        bldg:CoE_AC_6_vavZone9 ;
+    brick:hasPoint bldg:CoE_AC_6_vav_Actualflow_Sensor9,
+        bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor9,
+        bldg:CoE_AC_6_vav_DuctlnTemp_Sensor9,
+        bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor9,
+        bldg:CoE_AC_6_vav_OT_Sensor9,
+        bldg:CoE_AC_6_vav_Space_Temp_Sensor9 ;
+    brick:hasTimeseriesReference bldg:27d5d826-4853-44c4-bbcf-6b7d8ed2ec03 .
+
+bldg:CoE_AC_6_vav9_Damper a brick:Damper .
+
+bldg:CoE_AC_6_vavZone1 a brick:HVAC_Zone ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vavZone10 a brick:HVAC_Zone ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vavZone11 a brick:HVAC_Zone ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vavZone12 a brick:HVAC_Zone ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vavZone13 a brick:HVAC_Zone ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vavZone2 a brick:HVAC_Zone ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vavZone3 a brick:HVAC_Zone ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vavZone4 a brick:HVAC_Zone ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vavZone5 a brick:HVAC_Zone ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vavZone6 a brick:HVAC_Zone ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vavZone7 a brick:HVAC_Zone ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vavZone8 a brick:HVAC_Zone ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vavZone9 a brick:HVAC_Zone ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Actual_Cool_Setpoint_Sensor13 a brick:Cooling_Temperature_Setpoint ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Actual_Flow_Setpoint_Sensor13 a brick:Air_Flow_Setpoint ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Actual_Heat_Setpoint_Sensor13 a brick:Heating_Temperature_Setpoint ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Actualflow_Sensor1 a brick:Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Actualflow_Sensor10 a brick:Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Actualflow_Sensor11 a brick:Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Actualflow_Sensor12 a brick:Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Actualflow_Sensor13 a brick:Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Actualflow_Sensor2 a brick:Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Actualflow_Sensor3 a brick:Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Actualflow_Sensor4 a brick:Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Actualflow_Sensor5 a brick:Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Actualflow_Sensor6 a brick:Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Actualflow_Sensor7 a brick:Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Actualflow_Sensor8 a brick:Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Actualflow_Sensor9 a brick:Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor1 a brick:Return_Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor10 a brick:Return_Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor11 a brick:Return_Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor12 a brick:Return_Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor13 a brick:Return_Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor2 a brick:Return_Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor3 a brick:Return_Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor4 a brick:Return_Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor5 a brick:Return_Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor6 a brick:Return_Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor7 a brick:Return_Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor8 a brick:Return_Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Airflow_Feedback_Sensor9 a brick:Return_Air_Flow_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_CO2_Load_Sensor13 a brick:CO2_Level_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_CO2_Sensor13 a brick:CO2_Differential_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_CO2_Setpoint_Sensor13 a brick:CO2_Setpoint ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Coolmode_Temperature_Error_Sensor13 a brick:Differential_Air_Temperature_Setpoint ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_DuctlnTemp_Sensor1 a brick:Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_DuctlnTemp_Sensor10 a brick:Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_DuctlnTemp_Sensor11 a brick:Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_DuctlnTemp_Sensor12 a brick:Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_DuctlnTemp_Sensor13 a brick:Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_DuctlnTemp_Sensor2 a brick:Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_DuctlnTemp_Sensor3 a brick:Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_DuctlnTemp_Sensor4 a brick:Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_DuctlnTemp_Sensor5 a brick:Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_DuctlnTemp_Sensor6 a brick:Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_DuctlnTemp_Sensor7 a brick:Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_DuctlnTemp_Sensor8 a brick:Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_DuctlnTemp_Sensor9 a brick:Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Effective_Setpoint_Sensor13 a brick:Effective_Air_Temperature_Setpoint ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor1 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor10 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor11 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor12 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor13 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor2 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor3 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor4 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor5 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor6 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor7 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor8 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Effective_Space_Temp_Sensor9 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Heatmode_Temperature_Error_Sensor13 a brick:Differential_Air_Temperature_Setpoint ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Maximum_Flow_Cool_Setpoint_Sensor13 a brick:Max_Air_Flow_Cooling_Setpoint_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Maximum_Flow_Heat_Setpoint_Sensor13 a brick:Maximum_Flow_Heat_Setpoint_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Minimum_Flow_Heat_Setpoint_Sensor13 a brick:Minimum_Flow_Heat_Setpoint_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Minimum_Flow_Setpoint_Sensor13 a brick:Min_Air_Flow_Setpoint ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Minimum_Flow_Standby_Setpoint_Sensor13 a brick:Min_Air_Flow_Setpoint ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Minimum_Flow_Unoccupied_Setpoint_Sensor13 a brick:Unoccupied_Supply_Air_Flow_Setpoint ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_OT_Sensor1 a brick:Outside_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_OT_Sensor10 a brick:Outside_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_OT_Sensor11 a brick:Outside_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_OT_Sensor12 a brick:Outside_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_OT_Sensor13 a brick:Outside_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_OT_Sensor2 a brick:Outside_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_OT_Sensor3 a brick:Outside_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_OT_Sensor4 a brick:Outside_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_OT_Sensor5 a brick:Outside_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_OT_Sensor6 a brick:Outside_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_OT_Sensor7 a brick:Outside_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_OT_Sensor8 a brick:Outside_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_OT_Sensor9 a brick:Outside_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Occupied_Cool_Setpoint_Sensor13 a brick:Occupied_Air_Temperature_Cooling_Setpoint ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Occupied_Heat_Setpoint_Sensor13 a brick:Occupied_Air_Temperature_Heating_Setpoint ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Offset_Setpoint_Sensor13 a brick:Differential_Setpoint ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Space_Temp_Sensor1 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Space_Temp_Sensor10 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Space_Temp_Sensor11 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Space_Temp_Sensor12 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Space_Temp_Sensor13 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Space_Temp_Sensor2 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Space_Temp_Sensor3 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Space_Temp_Sensor4 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Space_Temp_Sensor5 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Space_Temp_Sensor6 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Space_Temp_Sensor7 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Space_Temp_Sensor8 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Space_Temp_Sensor9 a brick:Zone_Air_Temperature_Sensor ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_StandbyCool_Setpoint_Sensor13 a brick:Max_Air_Temperature_Setpoint ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_StandbyHeat_Setpoint_Sensor13 a brick:Min_Air_Temperature_Setpoint ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Temperature_Error_Sensor13 a brick:Differential_Air_Temperature_Setpoint ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Unoccupied_Cool_Setpoint_Sensor13 a brick:Unoccupied_Air_Temperature_Cooling_Setpoint ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_AC_6_vav_Unoccupied_Heat_Setpoint_Sensor13 a brick:Unoccupied_Air_Temperature_Heating_Setpoint ;
+    brick:hasLocation bldg:Room_403 .
+
+bldg:CoE_BD a brick:Building ;
+    brick:hasPart bldg:floor_1,
+        bldg:floor_2,
+        bldg:floor_3,
+        bldg:floor_4,
+        bldg:floor_5 .
+
+bldg:CoE_testbed a brick:Site ;
+    brick:hasPart bldg:CoE_BD,
+        bldg:Tower .
+
+bldg:Condensate_Return_Pump_\(MPP-LAB1-3\) a brick:HVAC_Equipment .
+
+bldg:EF-10_\(MPP-LAB1-1\) a brick:HVAC_Equipment .
+
+bldg:EF-11_\(MPP-LAB1-1\) a brick:HVAC_Equipment .
+
+bldg:EF-12_\(MPP-LAB1-1\) a brick:HVAC_Equipment .
+
+bldg:EF-13_\(MPP-LAB1-1\) a brick:HVAC_Equipment .
+
+bldg:EF-1_\(RP-5\) a brick:HVAC_Equipment .
+
+bldg:EF-2_\(RP-5\) a brick:HVAC_Equipment .
+
+bldg:EF-3_\(RP-5\) a brick:HVAC_Equipment .
+
+bldg:EF-5_\(RP-5\) a brick:HVAC_Equipment .
+
+<http://example.com/COEtest#EF-5_ELEV,_MACH_RM601_(RP-5)> a brick:HVAC_Equipment .
+
+bldg:EF-7_\(RP-5\) a brick:HVAC_Equipment .
+
+bldg:EF-8_\(MPP-LAB1-1\) a brick:HVAC_Equipment .
+
+<http://example.com/COEtest#ELEVATOR_LGTS/FAN_(RP-5)> a brick:Luminaire .
+
+bldg:EQS_STAR_OFFICE_\(RP-5\) a brick:PlugStrip .
+
+bldg:Exhaust_Fan_EF-9_\(MPP-LAB1-3\) a brick:HVAC_Equipment .
+
+bldg:F._B._CONF_RM_507_\(RP-5\) a brick:PlugStrip ;
+    brick:hasLocation bldg:Room_507 .
+
+<http://example.com/COEtest#F/A_BOOSTER_(RP-3)> a brick:PlugStrip .
+
+<http://example.com/COEtest#FCU-5-2/CP-5-2_(RP-5)> a brick:HVAC_Equipment .
+
+<http://example.com/COEtest#FCU_5-1/CP5-1_(RP-5)> a brick:HVAC_Equipment .
+
+bldg:FLR_BOX_SUITE_501_\(RP-5\) a brick:PlugStrip ;
+    brick:hasLocation bldg:Room_501 .
+
+bldg:GENERAL_RECPT_ALL_STATIONS_\(MPP-4-2\) a brick:PlugStrip .
+
+<http://example.com/COEtest#GFI's_BATHROOMS_(RP-3)> a brick:PlugStrip ;
+    brick:hasLocation bldg:floor_3 .
+
+bldg:GFI_UNDER_SOFFIT_\(RP-3\) a brick:PlugStrip .
+
+bldg:GHWP-1_\(MPP-LAB1-1\) a brick:HVAC_Equipment .
+
+bldg:GHWP-2_\(MPP-LAB1-1\) a brick:HVAC_Equipment .
+
+bldg:HQ_Lobby a brick:Lobby .
+
+bldg:HRWP-1_\(MPP-LAB1-1\) a brick:HVAC_Equipment .
+
+bldg:KITCHENETTE_\(RP-5\)Receptacles_\(RP-5\) a brick:PlugStrip .
+
+bldg:Kitchenette a brick:Office_Kitchen .
+
+bldg:MPP-4-2 a brick:Breaker_Panel ;
+    brick:feeds bldg:30_A_RECEPT_\(MPP-4-2\),
+        bldg:GENERAL_RECPT_ALL_STATIONS_\(MPP-4-2\),
+        <http://example.com/COEtest#STATION_3,_4,_5,_RECPT_(MPP-4-2)>,
+        bldg:STATION_6_RECPT_\(MPP-4-2\) .
+
+bldg:MPP-LAB1-1 a brick:Breaker_Panel ;
+    brick:feeds bldg:AIR_COMPRESSOR_\(MPP-LAB1-1\),
+        bldg:BOILER_PACKAGE_\(MPP-LAB1-1\),
+        bldg:EF-10_\(MPP-LAB1-1\),
+        bldg:EF-11_\(MPP-LAB1-1\),
+        bldg:EF-12_\(MPP-LAB1-1\),
+        bldg:EF-13_\(MPP-LAB1-1\),
+        bldg:EF-8_\(MPP-LAB1-1\),
+        bldg:GHWP-1_\(MPP-LAB1-1\),
+        bldg:GHWP-2_\(MPP-LAB1-1\),
+        bldg:HRWP-1_\(MPP-LAB1-1\),
+        bldg:PCHWP-1_\(MPP-LAB1-1\),
+        bldg:SF-1_\(MPP-LAB1-1\) .
+
+bldg:MPP-LAB1-3 a brick:Breaker_Panel ;
+    brick:feeds bldg:Air_Compressor_\(MPP-LAB1-3\),
+        bldg:Condensate_Return_Pump_\(MPP-LAB1-3\),
+        bldg:Exhaust_Fan_EF-9_\(MPP-LAB1-3\) .
+
+bldg:OUTLETS_EAST_\(RP-3\) a brick:PlugStrip .
+
+<http://example.com/COEtest#OUTLETS_PENTHOUSE/BOOSTER_PACK_(RP-5)> a brick:PlugStrip .
+
+bldg:OUTLETS_TIEQ_PREP_\(RP-5\) a brick:PlugStrip .
+
+bldg:OUTLET_MIDDLE_RM_\(RP-3\) a brick:PlugStrip .
+
+bldg:OUTLET_WEST_END_\(RP-5\) a brick:PlugStrip .
+
+bldg:OUTLET_WEST_RM_\(RP-3\) a brick:PlugStrip .
+
+bldg:PCHWP-1_\(MPP-LAB1-1\) a brick:HVAC_Equipment .
+
+bldg:QUAD_COMPUTER_RM_\(RP-5\) a brick:PlugStrip .
+
+bldg:RECEPT_PROJECTOR_ON_DECK_\(RP-5\) a brick:PlugStrip .
+
+bldg:RECP_BY_TIEQ_PREP_\(RP-5\) a brick:PlugStrip .
+
+bldg:RP-3 a brick:Breaker_Panel ;
+    brick:feeds bldg:3rd_Kitchen_\(RP-3\),
+        bldg:BAS_ROOM_\(RP-3\),
+        <http://example.com/COEtest#F/A_BOOSTER_(RP-3)>,
+        <http://example.com/COEtest#GFI's_BATHROOMS_(RP-3)>,
+        bldg:GFI_UNDER_SOFFIT_\(RP-3\),
+        bldg:OUTLETS_EAST_\(RP-3\),
+        bldg:OUTLET_MIDDLE_RM_\(RP-3\),
+        bldg:OUTLET_WEST_RM_\(RP-3\),
+        bldg:Receptacles_RM_301_\(RP-3\),
+        bldg:Receptacles_RM_302_\(RP-3\),
+        bldg:Receptacles_RM_303_\(RP-3\),
+        bldg:Receptacles_RM_304_\(RP-3\) .
+
+bldg:RP-5 a brick:Breaker_Panel ;
+    brick:feeds bldg:BATHRM_GFI_\(RP-5\),
+        bldg:EF-1_\(RP-5\),
+        bldg:EF-2_\(RP-5\),
+        bldg:EF-3_\(RP-5\),
+        bldg:EF-5_\(RP-5\),
+        <http://example.com/COEtest#EF-5_ELEV,_MACH_RM601_(RP-5)>,
+        bldg:EF-7_\(RP-5\),
+        <http://example.com/COEtest#ELEVATOR_LGTS/FAN_(RP-5)>,
+        bldg:EQS_STAR_OFFICE_\(RP-5\),
+        bldg:F._B._CONF_RM_507_\(RP-5\),
+        <http://example.com/COEtest#FCU-5-2/CP-5-2_(RP-5)>,
+        <http://example.com/COEtest#FCU_5-1/CP5-1_(RP-5)>,
+        bldg:FLR_BOX_SUITE_501_\(RP-5\),
+        bldg:KITCHENETTE_\(RP-5\)Receptacles_\(RP-5\),
+        <http://example.com/COEtest#OUTLETS_PENTHOUSE/BOOSTER_PACK_(RP-5)>,
+        bldg:OUTLETS_TIEQ_PREP_\(RP-5\),
+        bldg:OUTLET_WEST_END_\(RP-5\),
+        bldg:QUAD_COMPUTER_RM_\(RP-5\),
+        bldg:RECEPT_PROJECTOR_ON_DECK_\(RP-5\),
+        bldg:RECP_BY_TIEQ_PREP_\(RP-5\),
+        bldg:Sub_soil_fan_\(RP-5\),
+        bldg:TIEQ_PREP_504_\(RP-5\) .
+
+bldg:Receptacles_RM_301_\(RP-3\) a brick:PlugStrip ;
+    brick:hasLocation bldg:Room_301 .
+
+bldg:Receptacles_RM_302_\(RP-3\) a brick:PlugStrip ;
+    brick:hasLocation bldg:Room_302 .
+
+bldg:Receptacles_RM_303_\(RP-3\) a brick:PlugStrip ;
+    brick:hasLocation bldg:Room_303 .
+
+bldg:Receptacles_RM_304_\(RP-3\) a brick:PlugStrip ;
+    brick:hasLocation bldg:Room_304 .
+
+bldg:Roof_Garden a brick:Rooftop .
+
+bldg:Room_102 a brick:Room .
+
+bldg:Room_103 a brick:Room .
+
+bldg:Room_104 a brick:Room .
+
+bldg:Room_201 a brick:Room .
+
+bldg:Room_201A a brick:Room .
+
+bldg:Room_202 a brick:Room .
+
+bldg:Room_204 a brick:Room .
+
+bldg:Room_207 a brick:Room .
+
+bldg:Room_208 a brick:Room .
+
+bldg:Room_35 a brick:Room .
+
+bldg:Room_36 a brick:Room .
+
+bldg:Room_40 a brick:Room ;
+    brick:hasPart bldg:MPP-LAB1-1,
+        bldg:MPP-LAB1-3 .
+
+bldg:Room_401 a brick:Room .
+
+bldg:Room_402 a brick:Room .
+
+bldg:Room_40A a brick:Room .
+
+bldg:Room_502 a brick:Room .
+
+bldg:Room_503 a brick:Room .
+
+bldg:Room_504A a brick:Room .
+
+bldg:Room_508 a brick:Room ;
+    brick:hasPart bldg:RP-3,
+        bldg:RP-5 .
+
+bldg:Room_58 a brick:Room .
+
+bldg:Room_58A a brick:Room .
+
+bldg:Room_59 a brick:Room .
+
+bldg:Room_62 a brick:Room .
+
+bldg:SF-1_\(MPP-LAB1-1\) a brick:HVAC_Equipment .
+
+<http://example.com/COEtest#STATION_3,_4,_5,_RECPT_(MPP-4-2)> a brick:PlugStrip .
+
+bldg:STATION_6_RECPT_\(MPP-4-2\) a brick:PlugStrip .
+
+bldg:Sub_soil_fan_\(RP-5\) a brick:HVAC_Equipment .
+
+bldg:TIEQ_PREP_504_\(RP-5\) a brick:PlugStrip ;
+    brick:hasLocation bldg:Room_504 .
+
+bldg:Tower a brick:Building .
+
+bldg:floor_1 a brick:Floor ;
+    brick:hasPart bldg:HQ_Lobby,
+        bldg:Room_102,
+        bldg:Room_103,
+        bldg:Room_104,
+        bldg:Room_199,
+        bldg:Room_35,
+        bldg:Room_36,
+        bldg:Room_40,
+        bldg:Room_40A,
+        bldg:Room_58,
+        bldg:Room_58A,
+        bldg:Room_59,
+        bldg:Room_62 .
+
+bldg:floor_2 a brick:Floor ;
+    brick:hasPart bldg:Room_201,
+        bldg:Room_201A,
+        bldg:Room_202,
+        bldg:Room_203,
+        bldg:Room_204,
+        bldg:Room_207,
+        bldg:Room_208 .
+
+bldg:floor_4 a brick:Floor ;
+    brick:hasPart bldg:Room_400,
+        bldg:Room_401,
+        bldg:Room_402,
+        bldg:Room_403,
+        bldg:Room_499 .
+
+bldg:floor_5 a brick:Floor ;
+    brick:hasPart bldg:Room_501,
+        bldg:Room_502,
+        bldg:Room_503,
+        bldg:Room_504A,
+        bldg:Room_507,
+        bldg:Room_508,
+        bldg:Room_599 .
+
+bldg:outside a brick:Outside ;
+    brick:hasPart bldg:CoE_testbed .
+
+bldg:CoE_AC_6_EADamper a brick:Exhaust_Damper ;
+    brick:hasPoint bldg:CoE_AC_6_EADamper_Air_Flow_Setpoint .
+
+bldg:CoE_AC_6_EAFan a brick:Exhaust_Fan ;
+    brick:hasPoint bldg:CoE_AC_6_EAFan_RuntimeAlarm_Setpoint_Sensor,
+        bldg:CoE_AC_6_EAFan_Runtime_Sensor,
+        bldg:CoE_AC_6_EAFan_Speedsignal_Sensor .
+
+bldg:HWP1 a brick:Hot_Water_Pump ;
+    brick:feeds bldg:Heat_Exchanger ;
+    brick:hasPoint bldg:CoE_AC_6_HWP1_RuntimeAlarm_Setpoint_Sensor,
+        bldg:CoE_AC_6_HWP1_Runtime_Sensor .
+
+bldg:Room_199 a brick:Room .
+
+bldg:Room_203 a brick:Room .
+
+bldg:Room_301 a brick:Room .
+
+bldg:Room_302 a brick:Room .
+
+bldg:Room_499 a brick:Room .
+
+bldg:Room_501 a brick:Room .
+
+bldg:Room_507 a brick:Room .
+
+bldg:Room_599 a brick:Room .
+
+bldg:Room_303 a brick:Room .
+
+bldg:Room_304 a brick:Room .
+
+bldg:floor_3 a brick:Floor ;
+    brick:hasPart bldg:3rd_Lobby,
+        bldg:Kitchenette,
+        bldg:Roof_Garden,
+        bldg:Room_301,
+        bldg:Room_302,
+        bldg:Room_303,
+        bldg:Room_304 .
+
+bldg:CoE_AC_6_HeatWheel a brick:Heat_Wheel ;
+    brick:hasPoint bldg:CoE_AC_6_HeatWheel_ClgOffset_Setpoint_Sensor,
+        bldg:CoE_AC_6_HeatWheel_Defrost_EAT_Setpoint_Sensor,
+        bldg:CoE_AC_6_HeatWheel_Defrost_OAT_Setpoint_Sensor,
+        bldg:CoE_AC_6_HeatWheel_ExhaustAir_Temperature_Sensor,
+        bldg:CoE_AC_6_HeatWheel_HtgOffset_Setpoint_Sensor,
+        bldg:CoE_AC_6_HeatWheel_RuntimeAlarm_Setpoint_Sensor,
+        bldg:CoE_AC_6_HeatWheel_Runtime_Sensor,
+        bldg:CoE_AC_6_HeatWheel_Signal_Sensor,
+        bldg:CoE_AC_6_HeatWheel_WheelSpeed_Setpoint_Sensor .
+
+bldg:Air_Quality a brick:Air_Quality_sensor .
+
+bldg:Barometric_pressure a brick:Barometric_pressure_sensor .
+
+bldg:Battery a brick:Battery_sensor .
+
+bldg:Beep a brick:Beep_sensor .
+
+bldg:CO2HCHO a brick:CO2HCHO_sensor .
+
+bldg:Humidity a brick:Humidity_sensor .
+
+bldg:Light_Level a brick:Light_Level_sensor .
+
+bldg:Motion a brick:Motion_sensor .
+
+bldg:Ozone a brick:Ozone_sensor .
+
+bldg:PM10 a brick:PM10_sensor .
+
+bldg:PM2.5 a brick:PM2.5_sensor .
+
+bldg:Signal a brick:Signal_sensor .
+
+bldg:TVOC a brick:TVOC_sensor .
+
+bldg:Temperature a brick:Temperature_sensor .
+
+bldg:CoE_AC_6 a brick:Air_Handling_Unit ;
+    brick:hasPart bldg:CoE_AC_6_Cool_Battery,
+        bldg:CoE_AC_6_EADamper,
+        bldg:CoE_AC_6_Filter1,
+        bldg:CoE_AC_6_Filter2,
+        bldg:CoE_AC_6_HeatWheel,
+        bldg:CoE_AC_6_Heating_Battery,
+        bldg:CoE_AC_6_Humid,
+        bldg:CoE_AC_6_OADamper,
+        bldg:CoE_AC_6_OAFilter,
+        bldg:CoE_AC_6_PreHeating_Battery,
+        bldg:CoE_AC_6_SAFan ;
+    brick:hasPoint bldg:CoE_AC_6_ClgOAEnable_Setpoint_Sensor,
+        bldg:CoE_AC_6_Current_Exhaust_Aiflow_Setpoint_Sensor,
+        bldg:CoE_AC_6_EconoOAEnable_Setpoint_Sensor,
+        bldg:CoE_AC_6_Exhaust_Aiflow_Offset_Setpoint_Sensor,
+        bldg:CoE_AC_6_HtgOAEnableEnable_Setpoint_Sensor,
+        bldg:CoE_AC_6_MaTOffset_Setpoint_Sensor,
+        bldg:CoE_AC_6_MinimumEAF_Speed_Setpoint_Sensor,
+        bldg:CoE_AC_6_MinimumOA_Aiflow_Setpoint_Sensor,
+        bldg:CoE_AC_6_MinimumSAF_Speed_Setpoint_Sensor,
+        bldg:CoE_AC_6_MinimumSupply_Aiflow_Setpoint_Sensor,
+        bldg:CoE_AC_6_PreHeating_CurrentPHC_Setpoint_Sensor,
+        bldg:CoE_AC_6_PreHeating_DAT_Setpoint_Sensor,
+        bldg:CoE_AC_6_PreHeating_WheelOff_Setpoint_Sensor,
+        bldg:CoE_AC_6_SAHumid_Highlimit_Setpoint_Sensor,
+        bldg:CoE_AC_6_SpaceDeshumidity_Setpoint_Sensor,
+        bldg:CoE_AC_6_SpaceHumidity_Setpoint_Sensor,
+        bldg:CoE_AC_6_Startup_Setpoint_Sensor,
+        bldg:CoE_AC_6_Supply_StaticPressure_Setpoint_Sensor ;
+    brick:hasTimeseriesReference bldg:54c6da65-a337-4cc5-ba8d-8c3a0e5478e5 .
+
+bldg:Room_403 a brick:Room .
+
